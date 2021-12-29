@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+    background-image: url(Miku-Hatsune-PNG-Background.png);
+}
+/* NAVBAR */
+.navbar img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: black;
+    border-radius: 0;
+
+}
+.navbar{
+    background-color: skyblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    padding: 0;
+    
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right: 20%;
+    /* width: 60%; */
+    
+}
+
+
+.navbar ul li a{
+    float: left;
+    padding: 30px;
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar ul li a:hover{
+    text-transform: uppercase;
+    color: brown;
+    
+    
+}
+/* KONTEN */
+.halaman{
+   margin-left: 15%;
+   margin-right: 15%;
+   width: 70%; 
+   
+   
+}
+.konten{
+    /* width: 60%; */
+    margin-top: 100px;
+    
+    
+}
+img{
+    height: 400px;
+    width: 250px;
+    padding: 2px;
+    /* padding-bottom: 2px; */
+    border-radius: 20px;
+    /* position: relative; */
+    transition-duration: 0.45s;
+}
+.konten ol{
+    list-style: none;
+    padding: 10px;
+    
+    
+    
+}
+.konten li{
+    float: left;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    margin: 5px;
+    overflow: hidden;
+    
+}
+img:hover{
+    transform: scale(1.2)
+    
+}
+
+/* CONTACT */
+marquee{
+    color: white;
+    font-size: 20px;
+}
+
+/* SOSMED */
+
+.sosmed img{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    
+    
+    }
+.sosmed li{
+    padding: 35px;
+    list-style: none;
+}
